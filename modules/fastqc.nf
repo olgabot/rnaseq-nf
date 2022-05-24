@@ -12,6 +12,8 @@ process FASTQC {
 
     script:
     """
+    ls -lha
     fastqc.sh "$sample_id" "$reads"
+    ls -lha
     """
 }
