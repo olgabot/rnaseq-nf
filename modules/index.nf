@@ -10,6 +10,7 @@ process INDEX {
 
     script:
     """
+    env
     which -a python
     which -a aws
     which -a salmon
